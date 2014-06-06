@@ -12,4 +12,4 @@ plot(strptime(paste(Sel_HHPC$Date, Sel_HHPC$Time), "%d/%m/%Y %H:%M:%S"), Sel_HHP
 dev.copy(png, file = "plot2.png") 
 
 ## Closing png
-dev.off() 
+dev.off()
