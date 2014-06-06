@@ -12,4 +12,4 @@ hist(Sel_HHPC$Global_active_power, xlab="Global Active Power (kilowatts)", main=
 dev.copy(png, file = "plot1.png") 
 
 ## Closing png
-dev.off() 
+dev.off()
