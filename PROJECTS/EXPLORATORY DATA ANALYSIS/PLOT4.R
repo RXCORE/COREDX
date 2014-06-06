@@ -1,4 +1,3 @@
-
 ## Change Directory of R to where the file is located
 ## Loading the Data set
 HHPC <- read.csv ("./household_power_consumption.txt",  sep=";", na.strings='?', header = TRUE, colClasses = c("character", rep("factor",1), rep("numeric",7)))
